@@ -17,11 +17,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Capek Ngoding',
+      title: 'Food Delivery',
       navigatorKey: Get.navigatorKey,
       debugShowCheckedModeBanner: false,
       theme: getDefaultTheme(),
-      home: MainNavigationView(),
+      home: DashboardWidgetView(),
       builder: (context, child) => debugView(
         context: context,
         child: child,

@@ -3,8 +3,6 @@ We believe, the class name must be unique.
 If there is a conflicting class name in this file,
 it means you have to rename it to something more unique.
 */
-export 'package:hyper_ui/config.dart';
-export 'package:hyper_ui/core_package.dart';
 export 'package:hyper_ui/module/dashboard/controller/dashboard_controller.dart';
 export 'package:hyper_ui/module/dashboard/view/dashboard_view.dart';
 export 'package:hyper_ui/module/favorite/controller/favorite_controller.dart';
@@ -15,7 +13,16 @@ export 'package:hyper_ui/module/order/controller/order_controller.dart';
 export 'package:hyper_ui/module/order/view/order_view.dart';
 export 'package:hyper_ui/module/profile/controller/profile_controller.dart';
 export 'package:hyper_ui/module/profile/view/profile_view.dart';
-export 'package:hyper_ui/setup.dart';
+export 'package:hyper_ui/module/widget_collection/button_widget/controller/button_widget_controller.dart';
+export 'package:hyper_ui/module/widget_collection/button_widget/view/button_widget_view.dart';
+export 'package:hyper_ui/module/widget_collection/card_widget/controller/card_widget_controller.dart';
+export 'package:hyper_ui/module/widget_collection/card_widget/view/card_widget_view.dart';
+export 'package:hyper_ui/module/widget_collection/carousel_widget/controller/carousel_widget_controller.dart';
+export 'package:hyper_ui/module/widget_collection/carousel_widget/view/carousel_widget_view.dart';
+export 'package:hyper_ui/module/widget_collection/dashboard_widget/controller/dashboard_widget_controller.dart';
+export 'package:hyper_ui/module/widget_collection/dashboard_widget/view/dashboard_widget_view.dart';
+export 'package:hyper_ui/module/widget_collection/form_widget/controller/form_widget_controller.dart';
+export 'package:hyper_ui/module/widget_collection/form_widget/view/form_widget_view.dart';
 export 'package:hyper_ui/shared/theme/theme.dart';
 export 'package:hyper_ui/shared/theme/theme_config.dart';
 export 'package:hyper_ui/shared/theme/theme_dark.dart';
@@ -60,4 +67,6 @@ export 'package:hyper_ui/shared/widget/form/time_picker/timepicker.dart';
 export 'package:hyper_ui/shared/widget/list/list_view.dart';
 export 'package:hyper_ui/shared/widget/typography/heading.dart';
 export 'package:hyper_ui/shared/widget/widget_demo/widget_demo.dart';
-export 'package:hyper_ui/state_util.dart';
+export 'core_package.dart';
+export 'state_util.dart';
+export 'setup.dart';
