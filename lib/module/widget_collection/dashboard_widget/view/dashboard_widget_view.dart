@@ -29,7 +29,7 @@ class DashboardWidgetView extends StatefulWidget {
             onTap: () => Get.to(item["view"]),
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.purple,
+                color: Colors.orange,
                 borderRadius: BorderRadius.all(
                   Radius.circular(12.0),
                 ),
